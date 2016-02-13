@@ -13,7 +13,7 @@
 // ==/UserScript==
 
 (function() {
-      var i,
+  var i,
       el,
       b = {},
       subredditAnchor = document.getElementsByClassName("subreddit"),
