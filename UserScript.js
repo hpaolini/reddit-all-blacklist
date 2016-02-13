@@ -1,14 +1,18 @@
 // ==UserScript==
-// @name        r/all filter
-// @namespace   
-// @description remove subreddits you don't want to see
-// @include     https://www.reddit.com/*
-// @version     1
-// @grant       none
+// @name            all filter
+// @description     remove subreddits you don't want to see
+// @author          hpaolini (Hunter Paolini)
+// @icon            
+// @homepageURL     https://github.com/hpaolini/reddit-all-blacklist/
+// @namespace       hpaolini
+// @version         0.1.0
+// @include         https://www.reddit.com/*
+// @run-at          document-start
+// @grant           none
 // ==/UserScript==
 
 (function() {
-	var i,
+      var i,
       el,
       b = {},
       subredditAnchor = document.getElementsByClassName("subreddit"),
