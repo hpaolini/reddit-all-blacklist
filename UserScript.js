@@ -1,13 +1,14 @@
 // ==UserScript==
-// @name            all filter
+// @name            reddit all blacklist
 // @description     remove subreddits you don't want to see
 // @author          hpaolini (Hunter Paolini)
 // @icon            
 // @homepageURL     https://github.com/hpaolini/reddit-all-blacklist/
 // @namespace       hpaolini
-// @version         0.1.0
+// @version         0.1.1
+// @match           https://www.reddit.com/*
 // @include         https://www.reddit.com/*
-// @run-at          document-start
+// @run-at          document-end
 // @grant           none
 // ==/UserScript==
 
